@@ -300,6 +300,7 @@ p {
 	justify-content: center;
 	flex-direction: column;
 	padding: 30px;
+	height: 300px;
 	border-radius: 10px;
 	background-image: url(./img/img-1.png);
 	background-size: cover;
@@ -319,11 +320,17 @@ p {
 	opacity: 0.9;
 	z-index: -1;
 }
-#services .service-bottom .icon {
+#services .service-bottom .icon img {
 	height: 80px;
 	width: 80px;
 	margin-bottom: 20px;
 }
+#services .service-bottom .icon:nth-child(1){
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+}
+
 #services .service-item h2 {
 	font-size: 2rem;
 	color: white;
