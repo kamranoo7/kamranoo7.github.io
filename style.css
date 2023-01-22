@@ -341,6 +341,11 @@ p {
 	color: white;
 	text-align: left;
 }
+#services .service-item p:nth-child(4) {
+	font-size: 100px;
+	color: white;
+	text-align: left;
+}
 
 /* Projects section */
 #projects .projects {
