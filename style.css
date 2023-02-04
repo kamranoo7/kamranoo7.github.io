@@ -12,7 +12,7 @@ html {
 a {
 	text-decoration: none;
 }
-.container {
+.section {
 	min-height: 100vh;
 	width: 100%;
 	display: flex;
@@ -69,12 +69,12 @@ p {
 	
 	background-color: crimson;
 }
-.brand h1 {
+.user-detail-name h1 {
 	font-size: 3rem;
 	text-transform: uppercase;
 	color: white;
 }
-.brand h1 span {
+.user-detail-name h1 span {
 	color: crimson;
 }
 
@@ -208,14 +208,14 @@ p {
 /* End Header section */
 
 /* Hero Section */
-#hero {
+#home {
 	background-image: url(./img/hero-bg-1.png);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
 	z-index: 1;
 }
-#hero::after {
+#home::after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -226,32 +226,32 @@ p {
 	opacity: 0.7;
 	z-index: -1;
 }
-#hero .hero {
+#home .home {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 50px;
 	justify-content: flex-start;
 }
-#hero h1 {
+#home h1 {
 	display: block;
 	width: fit-content;
-	font-size: 4rem;
+	font-size: 6rem;
 	position: relative;
 	color: transparent;
 	animation: text_reveal 0.5s ease forwards;
 	animation-delay: 1s;
 }
-#hero h1:nth-child(1) {
+#home h1:nth-child(1) {
 	animation-delay: 1s;
 }
-#hero h1:nth-child(2) {
+#home h1:nth-child(2) {
 	animation-delay: 2s;
 }
-#hero h1:nth-child(3) {
+#home h1:nth-child(3) {
 	animation: text_reveal_name 0.5s ease forwards;
 	animation-delay: 3s;
 }
-#hero h1 span {
+#home h1 span {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -261,13 +261,13 @@ p {
 	animation: text_reveal_box 1s ease;
 	animation-delay: 0.5s;
 }
-#hero h1:nth-child(1) span {
+#home h1:nth-child(1) span {
 	animation-delay: 0.5s;
 }
-#hero h1:nth-child(2) span {
+#home h1:nth-child(2) span {
 	animation-delay: 1.5s;
 }
-#hero h1:nth-child(3) span {
+#home h1:nth-child(3) span {
 	animation-delay: 2.5s;
 }
 
@@ -275,25 +275,26 @@ p {
 /* End Hero Section */
 
 /* Services Section */
-#services .services {
+#skills .skills {
+	display: flex;
 	flex-direction: column;
 	text-align: center;
 	max-width: 1500px;
 	margin: 0 auto;
 	padding: 100px 0;
 }
-#services .service-top {
+#skills .service-top {
 	max-width: 500px;
 	margin: 0 auto;
 }
-#services .service-bottom {
+#skills .service-bottom {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
 	margin-top: 50px;
 }
-#services .service-item {
+#skills .service-item {
 	flex-basis: 80%;
 	display: flex;
 	align-items: flex-start;
@@ -309,7 +310,7 @@ p {
 	z-index: 1;
 	overflow: hidden;
 }
-#services .service-item::after {
+#skills .service-item::after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -320,29 +321,29 @@ p {
 	opacity: 0.9;
 	z-index: -1;
 }
-#services .service-bottom .icon img {
+#skills .service-bottom .icon img {
 	height: 80px;
 	width: 80px;
 	margin-bottom: 20px;
 }
-#services .service-bottom .icon:nth-child(1){
+#skills .service-bottom .icon:nth-child(1){
 	width: 100px;
 	height: 100px;
 	border-radius: 10px;
 }
 
-#services .service-item h2 {
+#skills .service-item h2 {
 	font-size: 2rem;
 	color: white;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 }
-#services .service-item p {
+#skills .service-item p {
 	color: white;
 	text-align: left;
 }
-#services .service-item p:nth-child(4) {
-
+#skills .service-item p:nth-child(4) {
+font-size: 1px;
 	width: 100px;
 	color: white;
 	text-align: left;
@@ -365,7 +366,7 @@ p {
 	flex-direction: column;
 }
  
-#projects .project-item {
+#projects .project-card {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -472,14 +473,14 @@ border: 0px solid ;
 	font-size: 2rem;
 	margin-left: 3px;
 }
-#about .col-left .about-img {
+#about .col-left .home-img {
 	height: 100%;
 	width: 100%;
 	position: relative;
 	border: 10px solid white;
 	
 }
-#about .col-left .about-img::after {
+#about .col-left .home-img::after {
 	border-radius: 10px;
 	content: '';
 	position: absolute;
@@ -524,8 +525,33 @@ border: 0px solid ;
 	margin: 0 auto;
 	margin-bottom: 10px;
 }
+#contact div .section-title{
+	color: black;
+}
+#contact #contact-phone h1 {
+	font-size: 2.5rem;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+#contact #contact-email h1 {
+	font-size: 2.5rem;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+
+#contact #contact-phone h2 {
+	font-size: 1.5rem;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
 #contact .contact-info h1 {
 	font-size: 2.5rem;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+
+#contact #contact-email a h2 {
+	font-size: 1.5rem;
 	font-weight: 500;
 	margin-bottom: 5px;
 }
@@ -670,7 +696,7 @@ border: 0px solid ;
 		height: 400px;
 		padding-left: 60px;
 	}
-	#about .about .col-left .about-img::after {
+	#about .about .col-left .home-img::after {
 		left: -45px;
 		top: 34px;
 		height: 98%;
@@ -687,6 +713,7 @@ border: 0px solid ;
 	/* End About */
 
 	/* contact  */
+	
 	#contact .contact {
 		flex-direction: column;
 		padding: 100px 0;

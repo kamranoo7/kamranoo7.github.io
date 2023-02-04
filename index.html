@@ -9,13 +9,13 @@
 </head>
 
 <body>
-  
+  <div id="nav-menu">
   <section id="header">
-    <div class="header container">
+    <div class="header section">
       <div class="nav-bar">
-        <div class="brand">
+        <div class="user-detail-name">
           <a href="#hero">
-            <h1><span>MD</span>KAMRAN<span>KHAN</span></h1>
+            <h1 id="user-detail-name"><span>MD</span>KAMRAN<span>KHAN</span></h1>
           </a>
         </div>
         <div class="nav-list">
@@ -23,8 +23,8 @@
             <div class="bar"></div>
           </div>
           <ul>
-            <li><a href="#hero" data-after="Home">Home</a></li>
-            <li><a href="#services" data-after="Service">Skills</a></li>
+            <li><a href="#nav-menu" data-after="Home">Home</a></li>
+            <li><a href="#skills" data-after="Service">Skills</a></li>
             <li><a href="#projects" data-after="Projects">Projects</a></li>
             <li><a href="#about" data-after="About">About</a></li>
             <li><a href="#contact" data-after="Contact">Contact</a></li>
@@ -33,25 +33,29 @@
       </div>
     </div>
   </section>
+</div>
  
-  <section id="hero">
-    <div class="hero container">
+  <section id="home">
+    <div class="nav-link home">
+    <div class="home section">
       <div>
         <h1>Hello, <span></span></h1>
         <h1>My Name is <span></span></h1>
         <h1>MD Kamran Khan <span></span></h1>
         <div class="flex">
-        <a  href="https://www.linkedin.com/in/md-kamran-khan-2b27871a4/"  class="cta"><img  src="https://cdn-icons-png.flaticon.com/512/61/61109.png?w=360" alt=""></a>
-      <a href="https://github.com/kamranoo7" class="cta">
+        <a id="contact-linkedin" href="https://www.linkedin.com/in/md-kamran-khan-2b27871a4/" target="_blank"  class="cta"><img  src="https://cdn-icons-png.flaticon.com/512/61/61109.png?w=360" alt=""></a>
+      <a id="contact-github" href="https://github.com/kamranoo7" target="_blank" class="cta">
         <img  src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" alt="">
       </a>
     </div>
       </div>
     </div>
+  </div>
   </section>
   
-  <section id="services">
-    <div class="services container">
+  <section id="skills">
+    <div class="nav-link skills">
+    <div class="skills section">
       <div class="service-top">
         <h1 class="section-title">SKI<span>I</span>LS</h1>
        
@@ -74,30 +78,32 @@
           <p>JavaScript is the world's most popular programming language. JavaScript is the programming language of the Web. </p>
         </div>
         <div class="service-item">
-          <div class="icon"><img src="data:image/png;base64,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" /></div>
+          <div class="icon"><img width="100px" src="data:image/png;base64,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" /></div>
           <h2>React JS</h2>
           <p>React is a JavaScript-based UI development library. Facebook and an open-source developer community run it. Although React is a library rather than a language.</p>
         </div>
         
     </div>
+  </div>
   </section>
   
   <section id="projects">
-    <div class="projects container">
+    <div class="nav-link projects">
+    <div class="projects section">
       <div class="projects-header">
         <h1 class="section-title">Recent <span>Projects</span></h1>
       </div>
       <div class="all-projects">
-        <div class="project-item">
+        <div class="project-card">
           <div class="project-info">
-            <h1>NORDSTROM CLONE</h1>
+            <h1 class="project-title">NORDSTROM CLONE</h1>
            
-            <p>E-commerce website where user can buy Clothes , Electronic Devices and Shoes etc..</p>
-          <h2>Tech used:- HTML , CSS , Javascript</h2>
+            <p class="project-description">E-commerce website where user can buy Clothes , Electronic Devices and Shoes etc..</p>
+          <h2 class="project-tech-stack">Tech used:- HTML , CSS , Javascript</h2>
           <div >
-            <button><a href="https://github.com/agrawalrajat310/red-sail-4113">Git Repo</a></button>
-            <button>
-              <a href="https://spiffy-hummingbird-c14e36.netlify.app/">Live Site</a>
+            <button class="project-github-link"><a href="https://github.com/agrawalrajat310/red-sail-4113" target="_blank">Git Repo</a></button>
+            <button class="project-deployed-link">
+              <a href="https://spiffy-hummingbird-c14e36.netlify.app/" target="_blank">Live Site</a>
             </button>
   
           </div>
@@ -106,17 +112,17 @@
             <img src="./img/img-4.png" alt="img">
           </div>
         </div>
-        <div class="project-item">
+        <div class="project-card">
           <div class="project-info">
-            <h1>UBORIC CLONE</h1>
+            <h1 class="project-title">UBORIC CLONE</h1>
            
-            <p>E-commerce website where user can buy Clothes , Electronic Devices and Shoes etc..</p>
-            <h2>Tech used:- HTML , CSS , Javascript</h2>
+            <p class="project-description">E-commerce website where user can buy Clothes , Electronic Devices and Shoes etc..</p>
+            <h2  class="project-tech-stack">Tech used:- HTML , CSS , Javascript</h2>
             <div>
-              <button>
-                <a href="https://github.com/suFi7867/Uborik.com-Clone">Git Repo</a>
+              <button class="project-github-link">
+                <a href="https://github.com/suFi7867/Uborik.com-Clone" target="_blank">Git Repo</a>
               </button>
-              <button><a href="https://timely-scone-5a7ba0.netlify.app/landingpage.html">Live Site</a></button>
+              <button  class="project-deployed-link"><a href="https://timely-scone-5a7ba0.netlify.app/landingpage.html" target="_blank">Live Site</a></button>
              </div>
           </div>
           <div class="project-img">
@@ -124,15 +130,15 @@
           </div>
           
         </div>
-        <div class="project-item">
+        <div class="project-card">
           <div class="project-info">
-            <h1>JOB.COM CLONE</h1>
+            <h1 class="project-title">JOB.COM CLONE</h1>
            
-            <p>It is a Website where you can Apply for your Dream job According to Your Proffession</p>
-          <h2>Tech used:- React js , Chakra UI</h2>
+            <p class="project-description">It is a Website where you can Apply for your Dream job According to Your Proffession</p>
+          <h2  class="project-tech-stack">Tech used:- HTML , CSS, React js , Chakra UI</h2>
           <div>
-            <button><a href="https://github.com/kamranoo7/savvy-street-3531">Git Repo</a></button>
-            <button><a href="https://63707ef213b9ce73598206ba--iridescent-chebakia-970964.netlify.app/">Live Site</a></button>
+            <button class="project-github-link"><a href="https://github.com/kamranoo7/savvy-street-3531" target="_blank">Git Repo</a></button>
+            <button  class="project-deployed-link"><a href="https://63707ef213b9ce73598206ba--iridescent-chebakia-970964.netlify.app/" target="_blank">Live Site</a></button>
            </div>
           </div>
           <div class="project-img">
@@ -143,35 +149,39 @@
         
       </div>
     </div>
+  </div>
   </section>
  
   <section id="about">
-    <div class="about container">
+    <div class="nav-link about">
+    <div class="about section">
       <div class="col-left">
-        <div class="about-img">
+        <div class="home-img">
           <img src="./img/hero-bg.jpeg" alt="img">
         </div>
       </div>
       <div class="col-right">
         <h1 class="section-title">About <span>me</span></h1>
         <h2>Front End Developer</h2>
-        <p>A full-stack React Js developer trained by Masai School, Bengaluru. I have a passion to create useful projects and systems which can contribute in everyone's wellbeing. I go to full extent in execution.</p>
-        <a href="./img/img-7.pdf" download="MD_KamranKhan_Resume" class="cta">Download Resume</a>
+        <p class="user-detail-intro">A full-stack React Js developer trained by Masai School, Bengaluru. I have a passion to create useful projects and systems which can contribute in everyone's wellbeing. I go to full extent in execution.</p>
+        <a id="resume-button-2" href="./img/img-7.pdf" download="MD_KamranKhan_Resume" target="_blank" class="cta">Download Resume</a>
       </div>
     </div>
+  </div>
   </section>
   <!-- End About Section -->
 
   <!-- Contact Section -->
   <section id="contact">
-    <div class="contact container">
-      <div>
+    <div class="nav-link contact">
+    <div class="contact section">
+      <div >
         <h1 class="section-title">Contact <span>info</span></h1>
       </div>
       <div class="contact-items">
         <div class="contact-item">
           <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
-          <div class="contact-info">
+          <div id="contact-phone">
             <h1>Phone</h1>
             <h2><a href="https://api.whatsapp.com/send?phone=9891276083">Whatsapp:- 9891276083</a>
               </h2>
@@ -180,10 +190,10 @@
         </div>
         <div class="contact-item">
           <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
-          <div class="contact-info">
+          <div id="contact-email">
             <h1>Email</h1>
-            <a href="mailto:iamkamrankhan@gmail.com"><h2>iamkamrankhan@gmail.com</h2></a>
-            <a href="mailto:mohammadkkhan78@gmail.com"> <h2>mohammadkkhan78@gmail.com</h2></a>
+            <a href="mailto:iamkamrankhan@gmail.com" target="_blank"><h2>iamkamrankhan@gmail.com</h2></a>
+            <a href="mailto:mohammadkkhan78@gmail.com" target="_blank"> <h2>mohammadkkhan78@gmail.com</h2></a>
           </div>
         </div>
         <div class="contact-item">
@@ -195,10 +205,11 @@
         </div>
       </div>
     </div>
+  </div>
   </section>
   
   <section id="footer">
-    <div class="footer container">
+    <div class="footer section">
       <div class="brand">
         <h1><span>MD </span>Kamran<span>Khan</span></h1>
       </div>
