@@ -65,10 +65,7 @@ p {
 	
 	width: 70px;
 }
-.cta:hover {
-	
-	background-color: crimson;
-}
+
 .user-detail-name h1 {
 	font-size: 3rem;
 	text-transform: uppercase;
@@ -174,6 +171,12 @@ p {
 	border-radius: 50%;
 	border: 3px solid white;
 	animation: hamburger_puls 1s ease infinite;
+}
+#resume-button-1{
+	margin-left: 20px;
+}
+#resume-button-1:hover{
+	color: white;
 }
 #header .hamburger .bar {
 	height: 2px;
@@ -350,23 +353,22 @@ font-size: 1px;
 }
 
 /* Projects section */
-#projects .projects {
+#projects  {
 	flex-direction: column;
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 100px 0;
 }
-#projects .projects-header h1 {
-	margin-bottom: 50px;
-}
+
 #projects .all-projects {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 }
+
  
-#projects .project-card {
+#projects .project-card div {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -390,6 +392,13 @@ font-size: 1px;
 #projects .project-info h1 {
 	font-size: 4rem;
 	font-weight: 500;
+}
+#title{
+	font-size: 30px;
+	text-align: center;
+}
+#title span{
+	color: crimson;
 }
 #projects .project-info h2 {
 	font-size: 2.2rem;
@@ -446,6 +455,7 @@ border: 0px solid ;
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 100px 20px;
+	gap: 30px;
 }
 #about .col-left {
 	width: 250px;
@@ -453,16 +463,26 @@ border: 0px solid ;
 }
 #about .col-right {
 	width: 100%;
+	
 }
+.home-img{
+	border-radius: 10px;
+}
+#about .col-right .section-title{
+	margin-top: -100px;
+}
+
 #about .col-right h2 {
+	margin-top: 10px;
 	font-size: 1.8rem;
 	font-weight: 500;
 	letter-spacing: 0.2rem;
-	margin-bottom: 10px;
+	
 }
-#about .col-right p {
-	margin-bottom: 20px;
-	font-size: 15px;
+
+#user-detail-intro {
+	margin-top: 13px;
+	font-size: 23px;
 	color: black;
 	font-weight: 400;
 }
@@ -472,6 +492,9 @@ border: 0px solid ;
 	padding: 10px 20px;
 	font-size: 2rem;
 	margin-left: 3px;
+}
+#resume-button-2:hover{
+background-color: crimson;
 }
 #about .col-left .home-img {
 	height: 100%;
@@ -492,6 +515,66 @@ border: 0px solid ;
 	z-index: -1;
 	border-radius: 10px;
 }
+/*  github */
+
+.react-activity-calendar> h1 {
+	text-align: center;
+font-size: 35px;
+}
+.react-activity-calendar> h1 >span {
+	color: crimson;
+}
+#github-streak-stats{
+	width: 900px;
+	height:300px;
+	margin-top: 30px;
+	margin: auto;
+}
+#github-top-langs{
+	width: 500px;
+	height:300px;
+	margin-top: 30px;
+	margin: auto;
+}
+#flex-stats{
+	display: flex;
+	
+	margin-top: 10px;
+	margin: auto;
+}
+#flex-stats>div{
+	
+
+	margin: auto;
+}
+#flex-stats>div:nth-child(1){
+	margin-top: 100px;
+	
+}
+#flex-stats>div:nth-child(2){
+	margin-top: 100px;
+	margin-left: -80px;
+}
+#github-stats-card{
+	width: 500px;
+	height:300px;
+	margin-top: 30px;
+	margin: auto;
+}
+.react-activity-calendar>div>img{
+	display: block;
+	margin: auto;
+	
+}
+
+
+
+
+
+
+
+
+
 
 #contact .contact {
 	flex-direction: column;
@@ -502,6 +585,9 @@ border: 0px solid ;
 #contact .contact-items {
 	/* max-width: 400px; */
 	width: 100%;
+}
+#contact .section-title{
+	margin-top: -100px;
 }
 #contact .contact-item {
 	width: 80%;
@@ -709,7 +795,9 @@ border: 0px solid ;
 	}
 	#about .col-right h1 {
 		text-align: left;
+		
 	}
+	
 	/* End About */
 
 	/* contact  */
