@@ -290,7 +290,11 @@ p {
 	max-width: 500px;
 	margin: 0 auto;
 }
+
+
 #skills .service-bottom {
+	
+	
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -312,6 +316,12 @@ p {
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
+}
+#skills .service-bottom .skills-card{
+	width: 500px;
+}
+#skills .icon{
+	margin: auto;
 }
 #skills .service-item::after {
 	content: '';
@@ -611,6 +621,7 @@ font-size: 35px;
 	margin: 0 auto;
 	margin-bottom: 10px;
 }
+
 #contact div .section-title{
 	color: black;
 }
@@ -747,8 +758,10 @@ font-size: 35px;
         flex-basis: 25%;
 		margin: 2.5%;
 	}
-	#services .skills>div>img{
+	
+	#services  .skills>div>img{
 		display: block;
+		
 	}
 	/* End Services Section */
 
