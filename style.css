@@ -286,6 +286,14 @@ p {
 	margin: 0 auto;
 	padding: 100px 0;
 }
+#skills .service-bottom .skills-card p{
+	color: black;
+	font-size: 15px;
+}
+.section-title{
+	margin-top: 40px;
+	text-align: center;
+}
 #skills .service-top {
 	max-width: 500px;
 	margin: 0 auto;
@@ -734,7 +742,32 @@ font-size: 35px;
 }
 /* End Keyframes */
 
-
+@media  screen and (max-width: 720px){
+	#skills .service-bottom .skills-card p{
+		text-align: center;
+	}
+	#skills .service-bottom .skills-card h2{
+		text-align: center;
+	}
+	.react-activity-calendar h1{
+		text-align: center;
+	}
+	#github-streak-stats{
+		width: 300px;
+		height: 100px;
+	}
+	#github-top-langs{
+		width: 180px;
+		height: 100px;
+	}
+	#github-stats-card{
+		width: 180px;
+		height: 100px;
+	}
+	#contact .section-title{
+		margin-top: 150px;
+	}
+}
 /* Media Query For Tablet */
 @media only screen and (min-width: 768px) {
 	.cta {
@@ -758,6 +791,7 @@ font-size: 35px;
         flex-basis: 25%;
 		margin: 2.5%;
 	}
+	
 	
 	#services  .skills>div>img{
 		display: block;
