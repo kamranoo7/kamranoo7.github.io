@@ -70,6 +70,7 @@ p {
 	font-size: 3rem;
 	text-transform: uppercase;
 	color: white;
+	
 }
 .user-detail-name h1 span {
 	color: crimson;
@@ -83,7 +84,8 @@ p {
 	left: 0;
 	top: 0;
 	width: 100vw;
-	height: auto;
+	
+	
 }
 #header .header {
 	min-height: 8vh;
@@ -110,6 +112,7 @@ p {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	
 	align-items: center;
 	z-index: 1;
 	overflow-x: hidden;
@@ -124,6 +127,7 @@ p {
 	letter-spacing: 0.2rem;
 	text-decoration: none;
 	color: white;
+	margin-top: -17px;
 	text-transform: uppercase;
 	padding: 20px;
 	display: block;
@@ -291,7 +295,7 @@ p {
 	font-size: 15px;
 }
 .section-title{
-	margin-top: 40px;
+margin-top: -43px;
 	text-align: center;
 }
 #skills .service-top {
