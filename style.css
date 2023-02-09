@@ -889,11 +889,13 @@ font-size: 35px;
 	/* header */
 	#header .hamburger {
 		display: none;
+		
 	}
 	
 	#header .nav-list ul {
 		position: initial;
 		display: block;
+		
 		height: auto;
 		width: fit-content;
 		background-color: transparent;
@@ -903,6 +905,7 @@ font-size: 35px;
 	}
 	#header .nav-list ul li a {
 		font-size: 1.8rem;
+		
 	}
 	#header .nav-list ul a:after {
 		display: none;
