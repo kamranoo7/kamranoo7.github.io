@@ -295,7 +295,8 @@ p {
 	font-size: 15px;
 }
 .section-title{
-margin-top: -43px;
+
+	margin-top: 20px;
 	text-align: center;
 }
 #skills .service-top {
