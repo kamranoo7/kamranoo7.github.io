@@ -296,7 +296,7 @@ p {
 }
 .section-title{
 
-	margin-top: 20px;
+	margin-top: -200px;
 	text-align: center;
 }
 #skills .service-top {
@@ -675,6 +675,7 @@ font-size: 35px;
 
 /* Footer */
 #footer {
+	margin-top: -200px;
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 }
 #footer .footer {
