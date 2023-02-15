@@ -9,9 +9,7 @@ html {
 	font-family: 'Montserrat', sans-serif;
 	scroll-behavior: smooth;
 }
-#nav-menu{
-	height: 100px;
-}
+
 a {
 	text-decoration: none;
 }
