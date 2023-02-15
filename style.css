@@ -488,6 +488,23 @@ border: 0px solid ;
 	width: 100%;
 	
 }
+#resume-button-2{
+
+
+margin-top: 10px;
+	display: inline-block;
+	padding: 5px 10px;
+	color: white;
+	border-radius: 10px;
+	background-color: transparent;
+	margin-left:-50px ;
+	font-size: 2rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	margin-top: 30px;
+	transition: 0.3s ease;
+	transition-property: background-color, color;
+}
 .home-img{
 	border-radius: 10px;
 }
@@ -509,7 +526,7 @@ border: 0px solid ;
 	color: black;
 	font-weight: 400;
 }
-#about .col-right .cta {
+#about .col-right #resume-button-2 {
 	color: black;
 	margin-bottom: 50px;
 	padding: 10px 20px;
@@ -755,9 +772,28 @@ font-size: 35px;
 	#skills .service-bottom .skills-card h2{
 		text-align: center;
 	}
+	.section-title{
+		margin-top:-150px;
+
+	}
+	#contact-github{
+		margin-left: 10px;
+	}
 	.react-activity-calendar h1{
 		text-align: center;
 	}
+	
+	#user-detail-intro{
+		font-size: 14px;
+		width: 400px;
+		
+		
+		
+		
+		margin-left: -20px;
+		text-align: center;
+	}
+
 	#github-streak-stats{
 		width: 300px;
 		height: 100px;
@@ -767,6 +803,9 @@ font-size: 35px;
 		height: 100px;
 	}
 	#github-stats-card{
+		
+		
+		margin-left: 70px;
 		width: 180px;
 		height: 100px;
 	}
@@ -782,6 +821,10 @@ font-size: 35px;
 		
 	}
 	
+	#resume-button-2{
+		font-size: 2.5rem;
+		padding: 20px 60px;
+	}
 	h1.section-title {
 		font-size: 6rem;
 	}
@@ -835,6 +878,7 @@ font-size: 35px;
 		height: 400px;
 		padding-left: 60px;
 	}
+	
 	#about .about .col-left .home-img::after {
 		left: -45px;
 		top: 34px;
