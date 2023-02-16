@@ -800,8 +800,8 @@ font-size: 35px;
 	#contact .section-title{
 		margin-top: 150px;
 	}
-	#footer{
-		margin-top: 150px;
+	#footer .footer {
+		margin-top: 200px;
 	}
 }
 /* Media Query For Tablet */
