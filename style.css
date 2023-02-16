@@ -452,9 +452,7 @@ margin-top: 10px;
 	transition: 0.3s ease;
 	transition-property: background-color, color;
 }
-.home-img{
-	border-radius: 10px;
-}
+
 #about .col-right .section-title{
 	margin-top: -100px;
 }
