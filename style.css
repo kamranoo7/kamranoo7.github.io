@@ -701,6 +701,9 @@ font-size: 35px;
 		margin-top:-150px;
 
 	}
+	#skills{
+		margin-top: -300px;
+	}
 	#contact-github{
 		margin-left: 10px;
 	}
@@ -708,6 +711,8 @@ font-size: 35px;
 		text-align: center;
 	}
 	#header .hamburger {
+		
+		
 		height: 60px;
 		width: 60px;
 		display: inline-block;
@@ -723,6 +728,9 @@ font-size: 35px;
 		margin-right: 20px;
 	}
 	#header .hamburger:after {
+		
+		
+		
 		position: absolute;
 		content: '';
 		height: 100%;
@@ -734,14 +742,18 @@ font-size: 35px;
 	#resume-button-1{
 		margin-left: 20px;
 	}
+
 	#resume-button-1:hover{
 		color: white;
+		
 	}
 	#header .hamburger .bar {
 		height: 2px;
 		width: 30px;
+		
+		
 		position: relative;
-		background-color: white;
+		background-color:white;
 		z-index: -1;
 	}
 	#header .hamburger .bar::after,
@@ -751,12 +763,15 @@ font-size: 35px;
 		height: 100%;
 		width: 100%;
 		left: 0;
+		
+		
 		background-color: white;
 		transition: 0.3s ease;
 		transition-property: top, bottom;
 	}
 	#header .nav-list ul.active {
 		left: 0%;
+		
 	}
 	#header .hamburger .bar::after {
 		top: 8px;
@@ -771,17 +786,32 @@ font-size: 35px;
 		top: 0;
 	}
 	
-	#user-detail-intro{
+	#about .about .section .col-right p{
 		font-size: 14px;
-		width: 400px;
-		
-		
-		
-		
-		margin-left: -20px;
+		width: 300px;
+		margin-top: 200px;
+	    margin-left: -200px;
 		text-align: center;
 	}
-
+	#about .about .section .col-right .section-title{
+		
+		margin-top: -300px;
+		margin-left: -200px;
+		
+	}
+	#about .about .section .col-right h2{
+		margin-top: 30px;
+		margin-left: -200px;
+		
+	}
+#about .col-left .home-img{
+	width: 200px;
+	margin-top: -250px;
+margin-left: 100px;
+}
+#about .col-right #resume-button-2{
+	margin-left: -200px;
+}
 	#github-streak-stats{
 		width: 300px;
 		height: 100px;
@@ -797,6 +827,7 @@ font-size: 35px;
 		width: 180px;
 		height: 100px;
 	}
+	
 	#contact .section-title{
 		margin-top: 150px;
 	}
