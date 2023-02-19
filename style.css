@@ -106,7 +106,11 @@ p {
 	max-width: 1300px;
 	padding: 0 10px;
 }
-
+#nav-menu .nav-list ul li a{
+	
+	color: white;
+}
+ 
 
 /* End Header section */
 
