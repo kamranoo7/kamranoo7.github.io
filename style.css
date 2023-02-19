@@ -106,11 +106,12 @@ p {
 	max-width: 1300px;
 	padding: 0 10px;
 }
-#nav-menu .nav-list ul li a{
-	
+#nav-menu  ul li a{
+	text-transform: uppercase;
 	color: white;
+	font-size: 23px;
 }
- 
+
 
 /* End Header section */
 
