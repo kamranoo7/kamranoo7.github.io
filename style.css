@@ -109,7 +109,9 @@ p {
 #nav-menu  ul li a{
 	text-transform: uppercase;
 	color: white;
-	font-size: 23px;
+	
+	
+	margin: 20px;
 }
 
 
