@@ -288,7 +288,7 @@ font-size: 1px;
 }
 
 #projects .all-projects {
-	display: flex;
+
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
