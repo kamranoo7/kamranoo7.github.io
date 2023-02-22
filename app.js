@@ -32,7 +32,7 @@ function downloadResume() {
     var newWindow = window.open(fileUrl, "_blank");
     
     // Use the download attribute of an anchor element to download the file
-    var downloadLink = document.getElementById("resume-link-2");
+    var downloadLink = document.createElement("a");
     downloadLink.href = fileUrl;
     downloadLink.download = fileName;
     document.body.appendChild(downloadLink);
