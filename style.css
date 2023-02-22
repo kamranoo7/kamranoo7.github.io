@@ -821,27 +821,28 @@ font-size: 35px;
 		font-size: 14px;
 		width: 300px;
 		margin-top: 200px;
-	    margin-left: -200px;
+	    margin-left: -250px;
 		text-align: center;
 	}
 	#about .about .section .col-right .section-title{
 		
 		margin-top: -300px;
-		margin-left: -200px;
+		margin-left: -250px;
 		
 	}
 	#about .about .section .col-right h2{
 		margin-top: 30px;
-		margin-left: -200px;
+		margin-left: -250px;
 		
 	}
 #about .col-left .home-img{
 	width: 200px;
 	margin-top: -250px;
-margin-left: 100px;
+margin-left: 50px;
+
 }
 #about .col-right #resume-button-2{
-	margin-left: -200px;
+	margin-left: -250px;
 }
 	#github-streak-stats{
 		width: 300px;
