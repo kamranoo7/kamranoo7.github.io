@@ -25,7 +25,7 @@ menu_item.forEach((item) => {
 });
 function downloadResume() {
     // Replace "resume.pdf" with the actual filename of your resume
-    var fileUrl = "https://drive.google.com/file/d/1XWVlxg5P3IkNjynyTdJnIZVQOur28VoQ/view?usp=sharing";
+    var fileUrl = "./img/img-7.pdf";
     var fileName = "MD_KamranKhan_Resume";
     
     // Create a new window to open the resume file
