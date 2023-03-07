@@ -580,7 +580,8 @@ font-size: 35px;
 }
 
 #contact #contact-email a h2 {
-	font-size: 1.5rem;
+	color: black;
+	font-size: 1.3rem;
 	font-weight: 500;
 	margin-bottom: 5px;
 }
