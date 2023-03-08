@@ -23,21 +23,31 @@ menu_item.forEach((item) => {
 		mobile_menu.classList.toggle('active');
 	});
 });
-function downloadResume() {
-    // Replace "resume.pdf" with the actual filename of your resume
-    var fileUrl = "./img/img-7.pdf";
-    var fileName = "MD_KamranKhan_Resume";
-    
-    // Create a new window to open the resume file
-    var newWindow = window.open(fileUrl, "_blank");
-    
-    // Use the download attribute of an anchor element to download the file
-    var downloadLink = document.createElement("a");
-    downloadLink.href = fileUrl;
-    downloadLink.download = fileName;
-    document.body.appendChild(downloadLink);
-    downloadLink.click();
-    document.body.removeChild(downloadLink);
-  }
-  var downloadButton = document.getElementById("resume-button-2");
-  downloadButton.addEventListener("click", downloadResume);
+// Get the resume button element by ID
+const resumeButton = document.getElementById("resume-button-2");
+
+// Add a click event listener to the button
+resumeButton.addEventListener("click", function() {
+
+  // Replace "your-resume.pdf" with the name of your PDF file
+  const pdfUrl = "./img/img-7.pdf";
+
+  // Use the fetch API to get the PDF file as a blob
+  fetch(pdfUrl)
+    .then(response => response.blob())
+    .then(blob => {
+
+      // Create a new URL object for the blob
+      const url = URL.createObjectURL(blob);
+
+      // Open a new browser window with the PDF file
+      window.open(url);
+
+      // Release the URL object
+      URL.revokeObjectURL(url);
+    })
+    .catch(error => {
+      console.error("Error fetching PDF file:", error);
+      alert("Unable to download resume. Please try again later.");
+    });
+});
