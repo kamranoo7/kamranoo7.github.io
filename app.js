@@ -39,5 +39,5 @@ function downloadResume() {
     downloadLink.click();
     document.body.removeChild(downloadLink);
   }
-  var downloadButton = document.getElementById("resume-button-2");
+  var downloadButton = document.getElementById("resume-link-2");
   downloadButton.addEventListener("click", downloadResume);
