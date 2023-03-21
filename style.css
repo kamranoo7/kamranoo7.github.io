@@ -168,7 +168,7 @@ p {
 	left: 0;
 	height: 100%;
 	width: 0;
-	background-color: crimson;
+	
 	animation: text_reveal_box 1s ease;
 	animation-delay: 0.5s;
 }
@@ -196,7 +196,9 @@ p {
 }
 #skills .service-bottom .skills-card p{
 	color: black;
+	align-items: center;
 	font-size: 15px;
+	font-weight: 600;
 }
 .section-title{
 
@@ -270,6 +272,7 @@ p {
 }
 #skills .service-item p {
 	color: white;
+
 	text-align: left;
 }
 #skills .service-item p:nth-child(4) {
@@ -356,6 +359,7 @@ border: 0px solid ;
 	height: 300px;
 	overflow: hidden;
 	position: relative;
+	
 }
 #projects .project-img:after {
 	content: '';
@@ -417,7 +421,7 @@ margin-top: 10px;
 #about .col-right h2 {
 	margin-top: 10px;
 	font-size: 1.8rem;
-	font-weight: 500;
+	font-weight: 700;
 	letter-spacing: 0.2rem;
 	
 }
@@ -434,6 +438,7 @@ margin-top: 10px;
 	padding: 10px 20px;
 	font-size: 2rem;
 	margin-left: 3px;
+	
 }
 #resume-button-2:hover{
 background-color: crimson;
@@ -671,6 +676,10 @@ font-size: 35px;
 @media  screen and (max-width: 720px){
 	#skills .service-bottom .skills-card p{
 		text-align: center;
+		width: 370px;
+	margin: auto;
+	
+	
 	}
 	#skills .service-bottom .skills-card h2{
 		text-align: center;
