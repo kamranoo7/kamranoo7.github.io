@@ -283,7 +283,75 @@ font-size: 1px;
 }
 
 /* Projects section */
+#projects{
+	margin-top: 100px;
+	width: 75%;
+	margin: auto;
+}
 
+#projects h1 span {
+	color: crimson;
+	
+}
+#projects h1 {
+	text-align: center;
+	font-size: 30px;
+	margin-top:30px;
+}
+#projects .project-card{
+margin-top: 20px;
+	margin: auto;
+	gap: 10px;
+	
+}
+#projects .project-card .project-div {
+	
+	margin: auto;
+	align-items: center;
+	justify-self: center;
+	display: flex;
+
+	
+}
+
+#projects .project-card .project-div {
+	background-color: #485563;
+	width:1000px;
+margin: auto;
+
+text-align: center;
+	border-radius: 20px;
+}
+#projects .project-card .project-div:nth-child(1) p{
+	width: 400px;
+	font-size: 15px;
+	font-weight: 600;
+	
+}
+#projects .project-card .project-div:nth-child(4) p{
+	width: 450px;
+	font-size: 15px;
+	font-weight: 600;
+	
+}
+#projects .project-card .project-div:nth-child(1) button{
+	width: 100px;
+	height: 30px;
+	border-radius: 7px;
+	margin-top:20px ;
+	
+}
+
+#projects .project-card .project-div:nth-child(1) button a{
+	color: black;
+	font-weight: 500;
+}
+#projects .project-card  div img{
+border-radius: 20px;
+	height: 400px;
+	width: 600px;
+ 
+}
 /* End Projects section */
 
 /* About Section */
@@ -374,6 +442,7 @@ background-color: crimson;
 .react-activity-calendar> h1 {
 	text-align: center;
 font-size: 35px;
+margin-top: 80px;
 }
 .react-activity-calendar> h1 >span {
 	color: crimson;
@@ -758,6 +827,52 @@ font-size: 35px;
 margin-left: 50px;
 
 }
+#projects .project-card{
+	width: 30%;
+	margin:auto;
+	margin-left: -10px;
+}
+#projects .project-card .project-div {
+	
+	display: inline-block;
+	margin: auto;
+	align-items: center;
+	justify-self: center;
+	width: 300px;
+    height: 200px;
+}
+
+#projects .project-card .project-div h1 {
+font-size: 16px;
+	
+}
+#projects .project-card:nth-child(3) .project-div{
+background-color:white;
+margin-top: 30px;
+}
+#projects .project-card:nth-child(2) .project-div{
+	background-color:#485563;
+	margin-top: 30px;
+	}
+	#projects .project-card:nth-child(4) .project-div{
+		background-color:#485563;
+		margin-top: 30px;
+		}
+	
+#projects .project-card .project-div:nth-child(1) p  {
+	font-size: 12px;
+		width: 300px;
+		text-align: center;
+		margin: auto;
+	}
+#projects .project-card .project-div div img{
+	margin-top: 40px;
+	width: 300px;
+	height: 130px;
+}
+
+
+
 #about .col-right #resume-button-2{
 	margin-left: -250px;
 }
