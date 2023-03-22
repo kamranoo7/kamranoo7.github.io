@@ -23,22 +23,22 @@ menu_item.forEach((item) => {
 		mobile_menu.classList.toggle('active');
 	});
 });
-function downloadResume() {
-//     // Replace "resume.pdf" with the actual filename of your resume
-    var fileUrl = "./img/img-7.pdf";
-     var fileName = "MD_KamranKhan_Resume";
+// function downloadResume() {
+// //     // Replace "resume.pdf" with the actual filename of your resume
+//     var fileUrl = "./img/img-7.pdf";
+//      var fileName = "MD_KamranKhan_Resume";
     
-//     // Create a new window to open the resume file
-    var newWindow = window.open(fileUrl, "_blank");
+// //     // Create a new window to open the resume file
+//     var newWindow = window.open(fileUrl, "_blank");
     
-    // Use the download attribute of an anchor element to download the file
-     var downloadLink = document.createElement("a");
-     downloadLink.href = fileUrl;
-     downloadLink.download = fileName;
-     document.body.appendChild(downloadLink);
-     downloadLink.click();
-    // document.body.removeChild(downloadLink);
-   }
+//     // Use the download attribute of an anchor element to download the file
+//      var downloadLink = document.createElement("a");
+//      downloadLink.href = fileUrl;
+//      downloadLink.download = fileName;
+//      document.body.appendChild(downloadLink);
+//      downloadLink.click();
+//     // document.body.removeChild(downloadLink);
+//    }
  
 // function download(){
 //   console.log("Helllo")
@@ -52,5 +52,5 @@ function downloadResume() {
 //   // link.click()
 //   window.open("./img/img-7.pdf")
 // }
- var downloadButton = document.getElementById("resume-button-2");
-  downloadButton.addEventListener("click", downloadResume);
+//  var downloadButton = document.getElementById("resume-button-2");
+//   downloadButton.addEventListener("click", downloadResume);
