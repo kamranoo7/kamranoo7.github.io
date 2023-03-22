@@ -23,18 +23,34 @@ menu_item.forEach((item) => {
 		mobile_menu.classList.toggle('active');
 	});
 });
-
-    const url = 'https://drive.google.com/file/d/1XWVlxg5P3IkNjynyTdJnIZVQOur28VoQ/view?usp=sharing';
-
-document.getElementById('resume-button-2').addEventListener('click', () => {
-  // Download the file
-  const link = document.createElement('a');
-  link.href = url;
-  link.download = './img/img-7.pdf';
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-  
-  // Open the file in a new tab
-  window.open(url, '_blank');
-})
+function downloadResume() {
+//     // Replace "resume.pdf" with the actual filename of your resume
+    var fileUrl = "./img/img-7.pdf";
+     var fileName = "MD_KamranKhan_Resume";
+    
+//     // Create a new window to open the resume file
+    var newWindow = window.open(fileUrl, "_blank");
+    
+    // Use the download attribute of an anchor element to download the file
+     var downloadLink = document.createElement("a");
+     downloadLink.href = fileUrl;
+     downloadLink.download = fileName;
+     document.body.appendChild(downloadLink);
+     downloadLink.click();
+    // document.body.removeChild(downloadLink);
+   }
+ 
+// function download(){
+//   console.log("Helllo")
+//   window.open(
+//     "https://drive.google.com/file/d/1XWVlxg5P3IkNjynyTdJnIZVQOur28VoQ/view?usp=sharing",
+//     "_blank"
+//   );
+//   // const link = document.createElement("a");
+//   // link.href = "./img/img-7.pdf";
+//   // document.body.appendChild(link);
+//   // link.click()
+//   window.open("./img/img-7.pdf")
+// }
+ var downloadButton = document.getElementById("resume-button-2");
+  downloadButton.addEventListener("click", downloadResume);
