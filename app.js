@@ -40,17 +40,17 @@ menu_item.forEach((item) => {
 //     // document.body.removeChild(downloadLink);
 //    }
  
-// function download(){
-//   console.log("Helllo")
-//   window.open(
-//     "https://drive.google.com/file/d/1XWVlxg5P3IkNjynyTdJnIZVQOur28VoQ/view?usp=sharing",
-//     "_blank"
-//   );
-//   // const link = document.createElement("a");
-//   // link.href = "./img/img-7.pdf";
-//   // document.body.appendChild(link);
-//   // link.click()
-//   window.open("./img/img-7.pdf")
-// }
+// // function download(){
+// //   console.log("Helllo")
+// //   window.open(
+// //     "https://drive.google.com/file/d/1XWVlxg5P3IkNjynyTdJnIZVQOur28VoQ/view?usp=sharing",
+// //     "_blank"
+// //   );
+// //   // const link = document.createElement("a");
+// //   // link.href = "./img/img-7.pdf";
+// //   // document.body.appendChild(link);
+// //   // link.click()
+// //   window.open("./img/img-7.pdf")
+// // }
 //  var downloadButton = document.getElementById("resume-button-2");
 //   downloadButton.addEventListener("click", downloadResume);
