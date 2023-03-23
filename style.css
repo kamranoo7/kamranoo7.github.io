@@ -381,6 +381,11 @@ border-radius: 20px;
 	
  
 }
+#projects .project-card  div img:hover{
+	transform: translate(20px);
+	transition: 1s ease;
+	opacity: 1;
+}
 
 
 /* End Projects section */
@@ -895,6 +900,8 @@ margin-top: 30px;
 #projects .project-card:nth-child(2) .project-div{
 	background-color:#485563;
 	margin-top: 30px;
+	background-color: red;
+	margin-left: 13px;
 	}
 	#projects .project-card:nth-child(4) .project-div{
 		background-color:#485563;
