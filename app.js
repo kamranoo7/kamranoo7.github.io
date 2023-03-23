@@ -54,3 +54,6 @@ menu_item.forEach((item) => {
 // // }
 //  var downloadButton = document.getElementById("resume-button-2");
 //   downloadButton.addEventListener("click", downloadResume);
+function resume(){  
+	window.open("https://drive.google.com/file/d/1XWVlxg5P3IkNjynyTdJnIZVQOur28VoQ/view?usp=sharing", "_blank");
+}
