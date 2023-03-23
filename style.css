@@ -329,26 +329,16 @@ margin-top: 20px;
 	background-color: #485563;
 	width:1000px;
 margin: auto;
-overflow: hidden;
-position: relative;
+
 text-align: center;
 	border-radius: 20px;
-	border: 1px solid red;
-}
-#projects .project-card .project-div:hover .next{
-	transform: translateX(1000px);
-        transition: 0.3s;
-        opacity: 1;
-}
-#projects .project-card .project-div .next{
-	width: 100%;
-	height: 100%;
 	
-	position: absolute;
-	top: 80%;
-	transition: top .5s ease;
+	
 	
 }
+
+
+
 #projects .project-card .project-div:nth-child(1) p{
 	width: 400px;
 	font-size: 15px;
@@ -388,7 +378,11 @@ border-radius: 20px;
 	height: 400px;
 	width: 600px;
  
+	
+ 
 }
+
+
 /* End Projects section */
 
 /* About Section */
@@ -451,6 +445,10 @@ margin-top: 10px;
 	padding: 10px 20px;
 	font-size: 2rem;
 	margin-left: 3px;
+	font-weight: 500;
+}
+#about .col-right #resume-button-2 a{
+	color: black;
 	
 }
 #resume-button-2:hover{
@@ -564,7 +562,7 @@ margin-top: 80px;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	box-shadow: 0px 0px 18px 0 #0000002c;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 	transition: 0.3s ease box-shadow;
 }
 #contact .contact-item:hover {
@@ -891,6 +889,9 @@ font-size: 16px;
 background-color:white;
 margin-top: 30px;
 }
+#projects .project-card .project-div:nth-child(1) button{
+	margin-top: 45px;
+}
 #projects .project-card:nth-child(2) .project-div{
 	background-color:#485563;
 	margin-top: 30px;
@@ -905,6 +906,7 @@ margin-top: 30px;
 		width: 300px;
 		text-align: center;
 		margin: auto;
+		margin-top: -20px ;
 	}
 #projects .project-card .project-div div img{
 	margin-top: 40px;
