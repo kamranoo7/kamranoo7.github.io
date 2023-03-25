@@ -13,6 +13,11 @@ html {
 	height: 100px;
 	background-color: transparent;
 }
+#resume-button-1{
+	background-color: transparent;
+	border: 0px ;
+}
+
 
 a {
 	text-decoration: none;
@@ -900,7 +905,8 @@ margin-top: 30px;
 #projects .project-card:nth-child(2) .project-div{
 	background-color:#485563;
 	margin-top: 30px;
-	background-color: red;
+	
+	
 	margin-left: 13px;
 	}
 	#projects .project-card:nth-child(4) .project-div{
