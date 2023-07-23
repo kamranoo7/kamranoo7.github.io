@@ -63,6 +63,7 @@ p {
 	border-radius: 10px;
 	background-color: transparent;
 	margin-left:-50px ;
+	
 	font-size: 2rem;
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
@@ -466,10 +467,16 @@ background-color: crimson;
 }
 #about .col-left .home-img {
 	height: 100%;
+	
 	width: 100%;
 	position: relative;
 	border: 10px solid white;
 	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#about .col-left .home-img{
+	
+	height: 335px;
+	margin-top: -40px;
 }
 #about .col-left .home-img::after {
 	border-radius: 10px;
@@ -709,13 +716,14 @@ margin-top: 80px;
 	}
 	#skills .service-bottom .skills-card h2{
 		text-align: center;
+		
 	}
 	.section-title{
 		margin-top:-150px;
 
 	}
 	#skills{
-		margin-top: -300px;
+		margin-top: -100px;
 	}
 	#contact-github{
 		margin-left: 10px;
@@ -857,18 +865,30 @@ margin-top: 80px;
 	#about .about .section .col-right p{
 		font-size: 14px;
 		width: 300px;
-		margin-top: 200px;
+		
 	    margin-left: -250px;
 		text-align: center;
+		display: block;
+		margin-top: 700px;
+	}
+	#about .about .section .col-right h1{
+		
+		 margin-top: 10px;
+	}
+	
+	#about .about .section .col-right h2{
+		margin-top: 1000px;
+		
 	}
 	#about .about .section .col-right .section-title{
 		
-		margin-top: -300px;
+		
 		margin-left: -250px;
 		
 	}
 	#about .about .section .col-right h2{
 		margin-top: 30px;
+		
 		margin-left: -250px;
 		
 	}
@@ -933,10 +953,12 @@ margin-top: 30px;
 
 #about .col-right #resume-button-2{
 	margin-left: -250px;
+	
 }
 	#github-streak-stats{
 		width: 300px;
 		height: 100px;
+		background-color: red;
 	}
 	#github-top-langs{
 		width: 180px;
@@ -982,6 +1004,7 @@ margin-top: 30px;
 	/* Services Section */
 	#services .skills div {
         flex-basis: 25%;
+		background-color: red;
 		margin: 2.5%;
 	}
 	
@@ -1039,7 +1062,7 @@ margin-top: 30px;
 		
 	}
 	
-	/* End About */
+	/* End About */ 
 
 	/* contact  */
 	
@@ -1112,3 +1135,19 @@ margin-top: 30px;
 	}
 }
 /* End  Media Query For Desktop */
+@media only screen and (min-width:500px) and (max-width:700px) {
+	#projects{
+
+margin-left: 180px;
+	}
+	#projects>h1{
+		
+		margin-left: -150px;
+		
+	}
+	.hamburger{
+		
+		margin-left: -100px;
+	}
+	
+}
