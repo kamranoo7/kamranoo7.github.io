@@ -706,7 +706,7 @@ margin-top: 80px;
 }
 /* End Keyframes */
 
-@media  screen and (max-width: 720px){
+@media  screen and (max-width: 800px){
 	#skills .service-bottom .skills-card p{
 		text-align: center;
 		width: 370px;
@@ -865,10 +865,11 @@ margin-top: 80px;
 	#about .about .section .col-right p{
 		font-size: 14px;
 		width: 300px;
-		
-	    margin-left: -250px;
+		margin-left: -270px;
+	   background-color: red;
 		text-align: center;
 		display: block;
+		margin-top: -200px;
 		margin-top: 700px;
 	}
 	#about .about .section .col-right h1{
@@ -1135,19 +1136,25 @@ margin-top: 30px;
 	}
 }
 /* End  Media Query For Desktop */
-@media only screen and (min-width:500px) and (max-width:700px) {
+@media only screen and (min-width:500px) and (max-width:800px) {
 	#projects{
 
-margin-left: 180px;
+margin-left: 250px;
 	}
 	#projects>h1{
 		
-		margin-left: -150px;
+		margin-left: -280px;
 		
 	}
 	.hamburger{
 		
 		margin-left: -100px;
 	}
-	
+	#about .col-left .home-img{
+	background-color: red;
+		height: 335px;
+		margin-top: -0px;
+		margin: auto;
+		margin-left: 200px;
+	}
 }
