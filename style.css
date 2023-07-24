@@ -1144,11 +1144,11 @@ margin-top: 30px;
 @media only screen and (min-width:500px) and (max-width:800px) {
 	#projects{
 
-margin-left: 250px;
+margin-left: 200px;
 	}
 	#projects>h1{
 		
-		margin-left: -210px;
+		margin-left: -220px;
 		
 	}
 	.hamburger{
