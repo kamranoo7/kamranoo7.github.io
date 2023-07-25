@@ -549,8 +549,30 @@ margin-top: 80px;
 	
 }
 
-
-
+.tool{
+	display: grid;
+	margin-left: 30%;
+	
+	margin-top: 50px;
+	grid-template-columns: repeat(3,200px);
+	grid-template-rows: repeat(1,200px);
+	gap: 20px;
+}
+.tool div{
+	margin: auto;
+}
+.tool div p{
+	text-align: center;
+	font-weight: 500;
+}
+.toolheading{
+	text-align: center;
+	font-size: 35px;
+	margin-top: 70px;
+}
+.toolheading  span{
+	color: crimson;
+}
 
 
 
@@ -954,8 +976,17 @@ margin-top: 30px;
 	width: 300px;
 	height: 130px;
 }
+.toolheading{
+	text-align: center;
+}
+.tool{
+	display: grid;
+	
+	
+	grid-template-columns: repeat(1,200px);
+	grid-template-rows: repeat(3,200px);
 
-
+}
 
 #about .col-right #resume-button-2{
 	margin-left: -250px;
@@ -1139,6 +1170,7 @@ margin-top: 30px;
 		flex-basis: 22%;
 		margin: 1.5%;
 	}
+	
 }
 /* End  Media Query For Desktop */
 @media only screen and (min-width:500px) and (max-width:800px) {
