@@ -563,7 +563,6 @@ margin-top: 80px;
 }
 .tool div p{
 	text-align: center;
-	font-weight: 500;
 }
 .toolheading{
 	text-align: center;
@@ -892,7 +891,7 @@ margin-top: 80px;
 	#about .about .section .col-right p{
 		font-size: 14px;
 		width: 300px;
-		margin-left: -270px;
+		margin-left: -230px;
 	   
 		text-align: center;
 		display: block;
@@ -923,7 +922,7 @@ margin-top: 80px;
 #about .col-left .home-img{
 	width: 200px;
 	margin-top: -250px;
-margin-left: -px;
+margin-left: 50px;
 
 }
 #projects .project-card{
@@ -1084,10 +1083,11 @@ margin-top: 30px;
 	}
 	
 	#about .about .col-left .home-img::after {
-		left: -45px;
+		left: 5px;
 		top: 34px;
 		height: 98%;
 		width: 98%;
+		
 		border: 10px solid crimson;
 	}
 	#about .col-right {
@@ -1177,6 +1177,7 @@ margin-top: 30px;
 	#projects{
 
 margin-left: 200px;
+position: relative;
 	}
 	#projects>h1{
 		
