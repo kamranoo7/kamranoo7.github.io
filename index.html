@@ -1,0 +1,370 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Portfolio</title>
+        <style>
+          
+        </style>
+    </head>
+
+    <body>
+        <div id="nav-menu">
+            <section id="header">
+                <div class="header section">
+                    <div class="nav-bar">
+                        <div class="user-detail-name">
+                            <a href="#hero">
+                                <h1 id="user-detail-name">
+                                    <span>MD</span>
+                                    KAMRAN<span>KHAN</span>
+                                </h1>
+                            </a>
+                        </div>
+                        <div class="nav-list">
+                            <div class="hamburger">
+                                <div class="bar"></div>
+                            </div>
+                            <ul>
+                                <li class="nav-link " class="home">
+                                    <a href="#nav-menu" data-after="Home">Home</a>
+                                </li>
+                                <li class="nav-link about ">
+                                    <a href="#about" data-after="About">About</a>
+                                </li>
+                                <li class="nav-link " class="skills">
+                                    <a href="#skills" data-after="Service">Skills</a>
+                                </li>
+                                <li class="nav-link projects" class="projects">
+                                    <a href="#projects">Projects</a>
+                                </li>
+                                <li class="nav-link " class="contact">
+                                    <a href="#contact" data-after="Contact">Contact</a>
+                                </li>
+                                <li class="nav-link resume">
+                                    <button id="resume-button-1" onclick=resume()>
+                                        <a id="resume-link-1" href="./img/MD_KamranKhan_Resume.pdf" download="MD_KamranKhan_Resume" target="_blank">RESUME</a>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section id="home">
+            <div class="nav-link home">
+                <div class="home section">
+                    <div>
+                        <h1>
+                            Hello, <span></span>
+                        </h1>
+                        <h1>
+                            My Name is <span></span>
+                        </h1>
+                        <h1>
+                            MD Kamran Khan <span></span>
+                        </h1>
+                        <div class="flex">
+                            <a id="contact-linkedin" href="https://www.linkedin.com/in/md-kamran-khan-2b27871a4/" target="_blank" class="cta">
+                                <img src="https://cdn-icons-png.flaticon.com/512/61/61109.png?w=360" alt="">
+                            </a>
+                            <a id="contact-github" href="https://github.com/kamranoo7" target="_blank" class="cta">
+                                <img style="border-radius: 10px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH0AAAB9CAMAAAC4XpwXAAAAY1BMVEUAAAD///+ysrK+vr7m5uZ9fX3y8vI5OTn7+/tZWVn29vavr6+Xl5fs7OwdHR2EhIQLCwvLy8sZGRmjo6NJSUnV1dUxMTEkJCRUVFQqKipOTk51dXWKiopeXl5oaGjExMRAQECXQ0jQAAAFIklEQVRoge1b2ZaiMBANEhYREAQUpUX+/yuHuEGo7EHyMvdh5pxuktuEqltLEuS9EfpBhLZAFPjhhxS9/sNBsQn1C0WA5+yHfENugvwwsacbcxOkH3YX5C/6kf3ghByhA2HHW3/zD3I8sgeOyBEKPBRu6Wo0ihD5zsjRyO1u4celR9vIKxsuuf/DGNGtbdvb1h+vaIO0xEkSP+NUnCRZWQXtJrpRByWOPYg4K4P6t9TXtGEQT2jS68+4976Q+gV//xPuTzYkBV5fPjtVboKsW5X7VmpwEzS39cgrlpGLEVcrcZ91Fn0CPq9B/mfETfBnT67iZTzYZi4nsbrI0JysyDMr8tH3LOgvoXx+CcKLKfnZnnykNzT9i5mnLYHNAo+dwU1oTMgfK5F73kOf3FxkILRlp6WGl5Wv8x0av6LDUqtHnlMW97TbU6cW6MqO+HiUzH+mWScf6AnfP619WbCL/U9uR/+pWj2COz3n1NyoZ7YYx2M6m4z/zv7MKa9M6SnuGuwLTx9mv+qJBGWP6tjXZ5JEF+e6P1YPIslhP3uupqfA6uRLe6fVsuqZg3o6n7gs5lC3+4QeGJqEitNCphPVgctXNwpUIDwqvnyxHLcOe6ZWanWLYV5i0tXKk+U0amk2VDWTGL20OsVoswfDPLaRi9HDaVRqrAMcZpIdMrJRBcErGDmFQYhkBWgstzvGimUG5AgxElL5F6zgILPM7AwnkldXcOFNKzL4HlKxv4AYatzILUBKHMuEA0iN8auzXl4mOGBEYt4KqoHcyd4EOIpRPvwGUE2Z6wI/sdm0AQsp813wqXRSoiXuYDbx8wV43qYDWIPZxP4DJCK0acNGwOfEwgUCXGbTfTkDKxKHOeDumU3rE7KLHf646rvDlRe3MQH7yt/9qMeeDBbsAxA7MXuwfFy3/KTQgtnEKw9zi3XVRjzbAJ63UdoUzDYIn8/B8yY53Qew4JcEePC8RvEJAPMkyQBgpUpZOBvws8tKSVjIrJnbyJIFWEuY5dMEMKeW1RNAbmQ+ygfUDonYsEKysd0xiiJpsgDNznCPATq7Qv+CtRdhkt8wFlGhGmV8LZM2M3MrSW5BMCqOaHS7FzmrsaoSrZn9UM1WJ7u1X8oHMmqpJ3Q2Ny2m4G1JlKqSu+e0s7FS++crkM2xT5uppo3LXt46u/QNr5OsJtnfnJ6sVN7N3wTveoH5F9fOF+zlKOanH5dPxqwq2C2DReOnHRSAfVCJmD311tOUYpCoEPQwVkETgNF0CWWv2X2HjE7S+8AJWarBCE8Udqrk6DqJPUmsoppWIHaUFm/cJBpyOYsQY1b52NHyy46T4k0sreR0MqB4QPUfbXns17iKyPWi9CxCkbW/dUfpTKwm5xeaUXK2jgORzvutfBlDWPIqAsHmpXaGMM1F3G5/Od33/V8a3GvuaZIdl9ygJpjs/Omp9eh95yYYOXiryGUP9clnRdXLw/ITqssARdxgw2U3av1M8qUSmPnsJnsLaJ5kYZVKlsNufOpqcrO4vH+8POfFKja7LIUXYK5xWfM4VIdHiXkFCZPd6rwZY6eCGy9Y7JaHzWpYjKmzh9ZHHa8gx1VmL9c457VMLlTZVzrjdscG7JlNu4lGpc2+1uG+Jy6+Fru/9sHW6WillL1c8VDlF+37hhFvUV+fJ/FtupsiRCkWnAUg+/04/emh7kH0Zu3wS+r/WBNu74y4vS/j9q6Q23tSbu+IOb4f5/ZuoON7kY7vhDq+D+v4LrDn6B70PyMuN7knYnk8AAAAAElFTkSuQmCC" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about section">
+            <div class="about">
+                <div class="section">
+                    <div class="col-left">
+                        <div>
+                            <img class="home-img" src="https://peppy-taffy-3bb054.netlify.app/img/Resume_image.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-right">
+                        <h1 class="section-title">
+                            About <span>me</span>
+                        </h1>
+                        <h2>GenAI And Full Stack Web-Developer</h2>
+                        <p id="user-detail-intro">Innovative Software and GenAI Developer with 3 years of experience at Capria Ventures,
+                          specializing in building and deploying AI-driven full-stack applications. Certified in Full Stack Web
+                          Development and Prompt Engineering from Masai. Proficient in Python, JavaScript, React.js,
+                          Node.js, Express, MongoDB, AWS, and advanced LLMs. Adept at delivering scalable solutions,
+                          optimizing performance, and collaborating across global teams. Passionate about leveraging GenAI
+                          to solve complex problems and drive business impact.</p>
+                        <div>
+                            <button id="resume-button-2" onclick="resume()">
+                                <a id="resume-link-2" href="./img/MD_KamranKhan_Resume.pdf" download="MD_KamranKhan_Resume" target="_blank">Download Resume</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+          <div class="nav-link skills"></div>
+          <div class="service-top">
+              <h1 class="section-title">
+                  SKI<span>I</span>LS
+              </h1>
+          </div>
+          <div class="skills-grid">
+              <div class="skill-card">
+                  <img src="https://cdn-icons-png.flaticon.com/512/1822/1822899.png" alt="Python">
+                  <h3>Python</h3>
+                  <p>Versatile programming language used for AI, web development, and automation.</p>
+              </div>
+              <div class="skill-card">
+                  <img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" alt="AWS">
+                  <h3>AWS</h3>
+                  <p>Cloud platform for scalable application deployment and infrastructure management.</p>
+              </div>
+              <div class="skill-card">
+                  <img src="https://cdn-icons-png.flaticon.com/512/1048/1048945.png" alt="LLM">
+                  <h3>LLM</h3>
+                  <p>Expertise in working with Large Language Models for AI-driven solutions.</p>
+              </div>
+              <div class="skill-card">
+                  <img src="https://cdn-icons-png.flaticon.com/512/1048/1048945.png" alt="GenAI">
+                  <h3>GenAI</h3>
+                  <p>Proficient in building and deploying Generative AI applications.</p>
+              </div>
+              <div class="skill-card">
+                  <img src="https://cdn-icons-png.flaticon.com/512/1822/1822921.png" alt="Weaviate">
+                  <h3>Weaviate</h3>
+                  <p>Vector database for semantic search and AI-powered applications.</p>
+              </div>
+              <div class="skill-card">
+                  <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="Cloudflare">
+                  <h3>Cloudflare</h3>
+                  <p>Web performance and security platform for optimized and secure applications.</p>
+              </div>
+              <div class="skill-card">
+                  <img src="https://cdn-icons-png.flaticon.com/512/5968/5968342.png" alt="DynamoDB">
+                  <h3>DynamoDB</h3>
+                  <p>Managed NoSQL database service for high-performance applications.</p>
+              </div>
+              <div class="skill-card">
+                  <img src="https://cdn-icons-png.flaticon.com/512/2702/2702602.png" alt="Google Cloud Platform">
+                  <h3>Google Cloud Platform</h3>
+                  <p>Cloud computing services for building and deploying scalable applications.</p>
+              </div>
+              <div class="skill-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML">
+                <h3>HTML</h3>
+                <p>Markup language for creating the structure of web pages.</p>
+            </div>
+            <div class="skill-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS">
+                <h3>CSS</h3>
+                <p>Stylesheet language for designing and styling web pages.</p>
+            </div>
+            <div class="skill-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript">
+                <h3>JavaScript</h3>
+                <p>Programming language for creating dynamic and interactive web applications.</p>
+            </div>
+            <div class="skill-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/1126/1126012.png" alt="React">
+                <h3>React</h3>
+                <p>JavaScript library for building user interfaces and single-page applications.</p>
+            </div>
+            <div class="skill-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" alt="Node.js">
+                <h3>Node.js</h3>
+                <p>JavaScript runtime for building scalable server-side applications.</p>
+            </div>
+
+            <div class="skill-card">
+              <img src="data:image/png;base64,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" alt="MongoDB">
+              <h3>MongoDB</h3>
+              <p>NoSQL database for modern, scalable, and high-performance applications.</p>
+          </div>
+          </div>
+      </section>
+<section id="projects">
+    <h1 style="user-select: none">
+        Recent <span>Projects</span>
+    </h1>
+    <div class="project-card">
+        <div class="project-div">
+            <div class="next">
+                <h1 style="color: white;" class="project-title" style="user-select: none;">GENERIC BOT</h1>
+                <p  style="color: white;" class="project-description" style="user-select: none;">Generic-Bot is an advanced chatbot designed for user-friendly interactions, providing accurate information from document repositories without the need to read long files. </p>
+                <h3  style="color: white;" class="project-tech-stack" style="user-select: none;">Tech used:- Python html css JavaScript, AWS, wevaite,Clouflare,LLM(openai,claude,gemini,),DynamoDB</h3>
+                <h3 style="color: white;" class="tools">Tools: Vs Studio, Notion-Editor, GitHub</h3>
+                <button class="project-github-link">
+                    <a href="https://github.com/Capria-vc/Generic-Bot" target="_blank">Git Repo</a>
+                </button>
+                <button class="project-deployed-link">
+                    <a href="https://capria.fund/login" target="_blank">Live Site</a>
+                </button>
+            </div>
+            <div>
+                <img src="https://peppy-taffy-3bb054.netlify.app/img/img-4.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="project-card">
+        <div class="project-div">
+            <div>
+                <img src="https://peppy-taffy-3bb054.netlify.app/img/img-5.png" alt="">
+            </div>
+            <div>
+                <h1 class="project-title" style="user-select: none;">JOBBOT</h1>
+                <p class="project-description" style="user-select: none;">Jobbot is an advanced chatbot designed for user-friendly interactions, providing accurate information from document repositories without the need to read long files.</p>
+                <h3 class="project-tech-stack" style="user-select: none;">Tech used:-Python html css JavaScript, AWS, wevaite,Clouflare,LLM(openai,claude,gemini,),DynamoDB</h3>
+                <h3 class="tools">Tools: Vs Studio, Notion-Editor, GitHub</h3>
+                <button class="project-github-link">
+                    <a href="https://github.com/Capria-vc/jobBot-V3" target="_blank">Git Repo</a>
+                </button>
+                <button class="project-deployed-link">
+                    <a href="https://jobbot.flourishingwith.ai/login" target="_blank">Live Site</a>
+                </button>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-div">
+                <div>
+                    <h1 class="project-title" style="user-select: none;">GAINBOT</h1>
+                    <p class="project-description" style="user-select: none;">It is AI a bot ewhich is scrapping data from website then givng it to LLm so that user can chat with bot</p>
+                    <h3 class="project-tech-stack" style="user-select: none;">Tech used:- Html,CSS,JavaScript,Python,AWS,Weaviate</h3>
+                    <h3 class="tools">Tools: Vs Studio, Notion-Editor, GitHub</h3>
+                    <button class="project-github-link">
+                        <a href="https://github.com/Capria-vc/Gainbot" target="_blank">Git Repo</a>
+                    </button>
+                    <button class="project-deployed-link">
+                        <a href="https://capria.vc/gain/" target="_blank">Live Site</a>
+                    </button>
+                </div>
+                <div>
+                    <img src="https://peppy-taffy-3bb054.netlify.app/img/img-6.png" alt="xx">
+                </div>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-div">
+                <div>
+                    <img src="https://kamranoo7.github.io/img/img-8.png" alt="">
+                </div>
+                <div>
+                    <h1 class="project-title" style="user-select: none;">AJIO CLONE</h1>
+                    <p class="project-description" style="user-select: none;">E-commerce website where user can buy Clothes , Electronic Devices and Shoes etc..</p>
+                    <h3 class="project-tech-stack" style="user-select: none;">Tech used:-HTML ,CSS, React JS, Redux,ChakraUI</h3>
+                    <h3 class="tools">Tools: Vs Studio, Notion-Editor, GitHub</h3>
+                    <button class="project-github-link">
+                        <a href="https://github.com/kamranoo7/physical-push-7511">Git Repo</a>
+                    </button>
+                    <button class="project-deployed-link">
+                        <a href="https://deluxe-sawine-a0ad0c.netlify.app/" target="_blank">Live Site</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End About Section -->
+<div class="react-activity-calendar">
+    <h1>
+        GIT<span>HUB</span>
+    </h1>
+    <div>
+        <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=kamranoo7" alt="xx">
+    </div>
+    <div id="flex-stats">
+        <div>
+            <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kamranoo7" alt="xx">
+        </div>
+        <div>
+            <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=kamranoo7" alt="xx">
+        </div>
+    </div>
+</div>
+<!-- Contact Section -->
+<section id="contact">
+    <div class="nav-link contact">
+        <div class="contact section">
+            <div>
+                <h1 class="section-title">
+                    Contact <span>info</span>
+                </h1>
+            </div>
+            <div class="contact-items">
+                <div class="contact-item">
+                    <div class="icon">
+                        <lord-icon src="https://cdn.lordicon.com/tftaqjwp.json" trigger="hover" style="width:75px;height:75px"></lord-icon>
+                    </div>
+                    <div id="contact-phone">
+                        <h1>Phone</h1>
+                        <h4>
+                            <a style="color: black;font-size: 12px;font-weight: 400;" href="https://api.whatsapp.com/send?phone=9891276083" target="_blank">Whatsapp:- 9891276083</a>
+</h2><h2>Call:- 7985919477</h2>
+</div></div>
+<div class="contact-item">
+    <div class="icon">
+        <lord-icon src="https://cdn.lordicon.com/ifqmqwui.json" trigger="hover" style="width:75px;height:75px"></lord-icon>
+    </div>
+    <div id="contact-email">
+        <h1>Email</h1>
+        <a href="mailto:iamkamrankhan@gmail.com" target="_blank">
+            <h2>iamkamrankhan@gmail.com</h2>
+        </a>
+        <a href="mailto:mohammadkkhan78@gmail.com" target="_blank">
+            <h2>mohammadkkhan78@gmail.com</h2>
+        </a>
+    </div>
+</div>
+<div class="contact-item">
+    <div class="icon">
+        <lord-icon src="https://cdn.lordicon.com/gmzxduhd.json" trigger="hover" style="width:70px;height:70px"></lord-icon>
+    </div>
+    <div class="contact-info">
+        <h1>Address</h1>
+        <h2>5/2217 Adil Nagar Kalyanpur , Lucknow India </h2>
+    </div>
+</div>
+</div></div></div></section>
+<section id="footer">
+    <div class="footer section">
+        <div class="brand">
+            <h1>
+                <span>MD </span>
+                Kamran<span>Khan</span>
+            </h1>
+        </div>
+        <h2>Your Complete Web Solution</h2>
+        <div class="social-icon">
+            <div class="social-item">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"/>
+                </a>
+            </div>
+            <div class="social-item">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"/>
+                </a>
+            </div>
+            <div class="social-item">
+                <a href="#">
+                    <img src="https://img.icons8.com/bubbles/100/000000/behance.png"/>
+                </a>
+            </div>
+        </div>
+        <p>Copyright © 2020 Arfan. All rights reserved</p>
+    </div>
+</section>
+<!-- End Footer -->
+<script src="./app.js">
+
+    // Attach the function to the button click event
+</script>
+</body></html><script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+<script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+<script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
