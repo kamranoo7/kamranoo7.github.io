@@ -383,7 +383,7 @@ p {
 /* Hero Section */
 #home {
 	margin-top: -100px;
-	background-image: url(https://kamranoo7.github.io/img/hero-bg-1.png);
+	background-image: url("https://plus.unsplash.com/premium_photo-1683309565422-77818a287060?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D");
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -567,6 +567,7 @@ font-size: 1px;
 #projects .project-card{
 margin-top: 20px;
 	margin: auto;
+    
 	gap: 10px;
 
 
@@ -587,7 +588,9 @@ margin-top: 20px;
 
 	
 }
-
+#projects .project-card{
+    width: 1300px;
+}
 #projects .project-card .project-div {
 	background-color: #485563;
 	width:1200px;
@@ -760,7 +763,7 @@ margin-top: 80px;
 	color: crimson;
 }
 #github-streak-stats{
-	width: 900px;
+	width:900px;
 	height:300px;
 	margin-top: 30px;
 	margin: auto;
@@ -1247,6 +1250,83 @@ margin-top: 30px;
 	#footer .footer {
 		margin-top: 200px;
 	}
+
+    /* Adjusting the project section */
+    #projects {
+        margin-left: 0;
+        padding: 20px;
+        width: 100%;
+    }
+    #projects > h1 {
+        margin-left: 0;
+        text-align: center;
+        font-size: 2rem;
+    }
+    #projects .project-card {
+        width: 100%;
+        margin: 20px auto;
+    }
+    #projects .project-card .project-div {
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+    }
+    #projects .project-card .project-div img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    #projects .project-card .project-div h1,
+    #projects .project-card .project-div p,
+    #projects .project-card .project-div h3 {
+        text-align: center;
+    }
+
+    /* Adjusting GitHub stats/calendar section */
+    .react-activity-calendar {
+        padding: 20px;
+    }
+    .react-activity-calendar > h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    #flex-stats {
+        flex-direction: column;
+        gap: 10px;
+    }
+    #flex-stats > div {
+        width: 100%;
+        margin: auto;
+    }
+    #flex-stats > div:nth-child(2) {
+        margin-left: 50px;
+    }
+    #github-streak-stats,
+    #github-top-langs,
+    #github-stats-card {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Adjusting "Hello MD Kamran Khan" section */
+    #home h1 {
+        font-size: 2rem;
+        text-align: center;
+        margin: 10px 0;
+    }
+    #home h1 span {
+        display: inline-block;
+        width: auto;
+        animation: none; /* Disable animation for better mobile performance */
+    }
+    #home .flex {
+        justify-content: center;
+        gap: 10px;
+    }
+    #home .cta img {
+        width: 50px;
+        height: 50px;
+    }
 }
 /* Media Query For Tablet */
 @media only screen and (min-width: 800px) {
@@ -1409,12 +1489,13 @@ margin-top: 30px;
 @media only screen and (min-width:500px) and (max-width:800px) {
 	#projects{
 
-margin-left: 200px;
+margin-left: 00px;
 position: relative;
 	}
+   
 	#projects>h1{
 		
-		margin-left: -220px;
+		margin-left: 20px;
 		
 	}
 	.hamburger{
